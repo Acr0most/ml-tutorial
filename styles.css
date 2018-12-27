@@ -1,0 +1,48 @@
+.erase {
+    margin-top: 20px;
+    width: 75px;
+    margin-left: calc(25vw + 20px);
+}
+
+.wrapper {
+    width: 50vw;
+    margin-top: 10vh;
+    margin-left: 25vw;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+canvas {
+    border: 1px solid black;
+}
+
+.option-wrapper {
+    width: calc(50vw - 100px);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.option-label {
+    margin-bottom: 39px;
+}
+
+.option-label *:first-child,
+.option-testing *:first-child {
+    width: 20vw;
+    margin-right: 20px;
+}
+
+.option-label *:not(:first-child),
+.option-testing *:not(:first-child) {
+    width: 22vw;
+}
+
+.option-label,
+.option-testing {
+    display: flex;
+    flex-direction: row;
+}

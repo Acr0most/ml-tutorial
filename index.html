@@ -1,0 +1,17 @@
+<link rel="stylesheet" type="text/css" href="styles.css">
+<div class="wrapper">
+    <canvas id="canvas" width="75" height="75"></canvas>
+    <div class="option-wrapper">
+        <div class="option-label">
+            <input id="label" type="number" />
+            <button onclick="addTestData()">Eingabe labeln</button>
+        </div>
+        <div class="option-testing">
+            <button onclick="predict()">Testen</button>
+            <input id="output" type="number"></div>
+        </div>
+    </div>
+</div>
+<button class="erase" onclick="erase()">Löschen</button>
+<button onclick="exp()">Exportieren</button>
+<script src="script.js"></script>
